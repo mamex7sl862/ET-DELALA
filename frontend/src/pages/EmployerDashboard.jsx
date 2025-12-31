@@ -98,7 +98,21 @@ const EmployerDashboard = () => {
                 Post a New Job
               </Link>
             </div>
+            <div className="text-center mb-20">
+              <Link
+                to="/post-job"
+                className="inline-block bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-20 py-10 rounded-3xl text-3xl font-bold hover:shadow-2xl transition transform hover:scale-105 mr-12"
+              >
+                Post a New Job
+              </Link>
 
+              <Link
+                to="/view-applicants" // ← adjust if your route is different
+                className="inline-block bg-gradient-to-r from-green-600 to-emerald-600 text-white px-20 py-10 rounded-3xl text-3xl font-bold hover:shadow-2xl transition transform hover:scale-105"
+              >
+                View All Applicants
+              </Link>
+            </div>
             {/* Recent Jobs */}
             <div className="max-w-7xl mx-auto">
               <h2 className="text-5xl font-bold mb-16 text-center text-indigo-800">
